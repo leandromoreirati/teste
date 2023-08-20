@@ -15,6 +15,7 @@ projects:
   - dir: .
     workspace: staging
     #project_env: staging
+    workflow: staging
     autoplan:
       when_modified: ["**/*"]
     terraform_version: v1.4.6
