@@ -1,4 +1,4 @@
-resource  "null_resource" "example-1" {
+resource  "null_resource" "default" {
   triggers = {
     name = var.name
     environment = var.environment
