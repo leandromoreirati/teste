@@ -1,17 +1,17 @@
 version: 3
 projects:
-  #- dir: .
-  #  workspace: dev
-  #  #project_env: dev
-  #  autoplan:
-  #    when_modified: ["**/*"]
-  #  terraform_version: v1.4.6
-  #- dir: .
-  #  workspace: uat
-  #  #project_env: uat
-  #  autoplan:
-  #    when_modified: ["**/*"]
-  #  terraform_version: v1.4.6
+  - dir: .
+    workspace: dev
+    #project_env: dev
+    autoplan:
+      when_modified: ["**/*"]
+    terraform_version: v1.4.6
+  - dir: .
+    workspace: uat
+    #project_env: uat
+    autoplan:
+      when_modified: ["**/*"]
+    terraform_version: v1.4.6
   - dir: .
     workspace: staging
     #project_env: staging
@@ -19,9 +19,15 @@ projects:
     autoplan:
       when_modified: ["**/*"]
     terraform_version: v1.4.6
-  #- dir: .
-  #  workspace: prod
-  #  #project_env: prod
-  #  autoplan:
-  #    when_modified: ["**/*"]
-  #  terraform_version: v1.4.6
+  - dir: .
+    workspace: prod
+    #project_env: prod
+    autoplan:
+      when_modified: ["**/*"]
+    terraform_version: v1.4.6
+  - dir: .
+    workspace: sandbox
+    #project_env: sandbox
+    autoplan:
+      when_modified: ["**/*"]
+    terraform_version: v1.4.6

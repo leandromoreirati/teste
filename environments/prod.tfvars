@@ -1,0 +1,2 @@
+name = "zebedeu"
+environment = "prod"
